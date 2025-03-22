@@ -27,7 +27,7 @@ const TextForm = (props) => {
           onError={(e) => {
             e.target.src = "bumblebee.png"; // Set the fallback image
           }}
-          alt="Description of the image"
+          alt="Related to the text"
           className="rounded img-thumbnail"
           width="250"
           height="250"

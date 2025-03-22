@@ -11,10 +11,10 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              path="/"
+              path="/textutils/home"
               element={<TextForm heading="Enter text here to analyze: " />}
             />
-            <Route path="/about" element={<About />} />
+            <Route path="/textutils/about" element={<About />} />
           </Routes>
         </div>
       </BrowserRouter>
